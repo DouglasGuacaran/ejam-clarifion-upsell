@@ -1,0 +1,47 @@
+
+
+.navbar {
+  width: 360px;
+  margin:0;
+  padding: 0; 
+}
+
+.navbar-head {
+  color: #fff;
+  display: flex;
+  padding: 10px 10px;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  background: #252F3D;
+}
+
+.navbar-head button {
+  background: #252F3D;
+  color: #fff;
+  padding: 10px 20px; /* Ajusta el espaciado interno del botón */
+  margin: 0px; /* Ajusta el espaciado externo del botón */
+  border: none; /* Elimina el borde del botón si lo hubiera */
+  border-radius: 5px;
+}
+.navbar-head p{
+  color: #FFF;
+  /* font-family: Manrope; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 12px */
+  text-transform: capitalize;
+}
+.navbar-head-logos{
+  display: flex;
+  justify-content:space-between;
+  padding: 10px 20px;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0px 24px 24px 0px rgba(15, 29, 11, 0.04);
+}
+.navbar-head-logos-right{
+  display: flex;
+  justify-content:space-between;
+}
